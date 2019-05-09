@@ -1,4 +1,12 @@
 /* All styles for your Card Components live here */
 #cardBanner img {
   width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+#cardContainer {
+  border: thin solid #ccc;
+  border-radius: 0.5rem;
+  margin: 0 0 0 4rem;
 }
