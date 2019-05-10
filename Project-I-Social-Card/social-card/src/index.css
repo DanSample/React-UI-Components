@@ -3,3 +3,12 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+p {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.lightGrey {
+  color: #657786;
+}
