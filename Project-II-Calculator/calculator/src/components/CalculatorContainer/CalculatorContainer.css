@@ -1,11 +1,12 @@
 .calculator-container {
-  height: 600px;
+  max-height: 600px;
   width: 100%;
   max-width: 400px;
 }
 
 .calculator-container .calculator-body {
   display: flex;
+  flex-direction: row;
   height: 100%;
 }
 

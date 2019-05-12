@@ -11,7 +11,7 @@ const CalculatorContainer = () => {
       <div className="calculator-body">
         <div className="num-pad">
           <div className="row">
-            <NumberButton buttonStyle="btn light" text="Clear" />
+            <NumberButton buttonStyle="btn light " text="Clear" />
           </div>
           <div className="row">
             <NumberButton buttonStyle="btn light" text="7" />
