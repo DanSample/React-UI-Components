@@ -1,4 +1,5 @@
 import React from 'react';
+import './CalculatorContainer.css';
 import CalculatorDisplay from '../DisplayComponents/CalculatorDisplay';
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
@@ -32,7 +33,7 @@ const CalculatorContainer = () => {
           </div>
         </div>
         <div className="math-operators">
-          <div className="row">
+          <div className="column">
             <ActionButton buttonStyle="btn operator" text="&#247;" />
             <ActionButton buttonStyle="btn operator" text="x" />
             <ActionButton buttonStyle="btn operator" text="-" />

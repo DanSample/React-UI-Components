@@ -1,0 +1,11 @@
+.num-pad {
+  width: 100%;
+}
+
+.btn {
+}
+
+.btn.operator {
+  height: 98px;
+  width: 98px;
+}

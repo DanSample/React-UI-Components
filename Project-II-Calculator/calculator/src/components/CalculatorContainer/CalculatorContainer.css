@@ -1,0 +1,23 @@
+.calculator-container {
+  height: 600px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.calculator-container .calculator-body {
+  display: flex;
+  height: 100%;
+}
+
+.calculator-container .math-operators {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100px;
+}
+
+.calculator-container .math-operators .column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
