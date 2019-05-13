@@ -1,0 +1,28 @@
+.num-pad {
+  width: 100%;
+}
+
+.btn {
+  height: 98px;
+  width: 100px;
+  font-size: 45px;
+}
+
+.btn.bold {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.btn.operator {
+  font-size: 65px;
+  color: white;
+  background-color: darkred;
+}
+
+.solo {
+  width: 100%;
+}
+
+.solo .btn {
+  width: 100%;
+}

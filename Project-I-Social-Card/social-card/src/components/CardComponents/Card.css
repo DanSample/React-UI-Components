@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#cardContainer {
+  border: thin solid #ccc;
+  border-radius: 0.5rem;
+  margin: 0 0 0 4rem;
+}
+
+#cardContainer #cardBanner img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+#cardContainer #cardContent strong {
+  padding-left: 1rem;
+}
+
+#cardContainer #cardContent .content {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#cardContainer #cardContent .lightGrey {
+  padding: 0 0 1rem 1rem;
+}
