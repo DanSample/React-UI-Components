@@ -10,35 +10,35 @@ const CalculatorContainer = () => {
       <CalculatorDisplay text="0" />
       <div className="calculator-body">
         <div className="num-pad">
-          <div className="row">
-            <NumberButton buttonStyle="btn light " text="Clear" />
+          <div className="solo">
+            <NumberButton buttonStyle="btn light " text="clear" />
           </div>
           <div className="row">
-            <NumberButton buttonStyle="btn light" text="7" />
-            <NumberButton buttonStyle="btn light" text="8" />
-            <NumberButton buttonStyle="btn light" text="9" />
+            <NumberButton buttonStyle="btn bold" text="7" />
+            <NumberButton buttonStyle="btn bold" text="8" />
+            <NumberButton buttonStyle="btn bold" text="9" />
           </div>
           <div className="row">
-            <NumberButton buttonStyle="btn light" text="4" />
-            <NumberButton buttonStyle="btn light" text="5" />
-            <NumberButton buttonStyle="btn light" text="6" />
+            <NumberButton buttonStyle="btn bold" text="4" />
+            <NumberButton buttonStyle="btn bold" text="5" />
+            <NumberButton buttonStyle="btn bold" text="6" />
           </div>
           <div className="row">
-            <NumberButton buttonStyle="btn light" text="1" />
-            <NumberButton buttonStyle="btn light" text="2" />
-            <NumberButton buttonStyle="btn light" text="3" />
+            <NumberButton buttonStyle="btn bold" text="1" />
+            <NumberButton buttonStyle="btn bold" text="2" />
+            <NumberButton buttonStyle="btn bold" text="3" />
           </div>
-          <div className="row">
-            <NumberButton buttonStyle="btn light" text="0" />
+          <div className="solo">
+            <NumberButton buttonStyle="btn bold" text="0" />
           </div>
         </div>
         <div className="math-operators">
           <div className="column">
             <ActionButton buttonStyle="btn operator" text="&#247;" />
-            <ActionButton buttonStyle="btn operator" text="x" />
-            <ActionButton buttonStyle="btn operator" text="-" />
-            <ActionButton buttonStyle="btn operator" text="+" />
-            <ActionButton buttonStyle="btn operator" text="=" />
+            <ActionButton buttonStyle="btn operator" text="&#215;" />
+            <ActionButton buttonStyle="btn operator" text="&#8722;" />
+            <ActionButton buttonStyle="btn operator" text="&#43;" />
+            <ActionButton buttonStyle="btn operator" text="&#61;" />
           </div>
         </div>
       </div>
